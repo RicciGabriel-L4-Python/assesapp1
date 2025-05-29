@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="info_content_desc">Info</string>
+    <string name="empty_result">0</string>
+    <string name="translate_dream">Translate</string>
+
+    <!-- Dream symbols -->
+    <string name="symbol_mirror">Mirror</string>
+    <string name="symbol_ocean">Ocean</string>
+    <string name="symbol_stairs">Stairs</string>
+    <string name="symbol_fire">Fire</string>
+    <string name="symbol_bird">Bird</string>
+    <string name="symbol_door">Door</string>
+    <string name="symbol_fog">Fog</string>
+    <string name="symbol_clock">Clock</string>
+    <string name="symbol_tree">Tree</string>
+    <string name="symbol_moon">Moon</string>
+</resources>

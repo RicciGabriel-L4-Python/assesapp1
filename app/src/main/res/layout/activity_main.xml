@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:padding="16dp">
+
+    <!-- Info Button (top-right) -->
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/info_content_desc"
+        android:src="@android:drawable/ic_menu_info_details"
+        app:tint="#FFFFFF" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/empty_result"
+        android:textSize="48sp"
+        android:textColor="#FFFFFF"
+        android:gravity="end|center_vertical"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <!-- Grid of Symbol Buttons -->
+    <GridLayout
+        android:id="@+id/symbolsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/button_mirror"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_mirror" />
+
+        <Button
+            android:id="@+id/button_ocean"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_ocean" />
+
+        <Button
+            android:id="@+id/button_stairs"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_stairs" />
+
+        <Button
+            android:id="@+id/button_fire"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_fire" />
+
+        <Button
+            android:id="@+id/button_bird"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_bird" />
+
+        <Button
+            android:id="@+id/button_door"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_door" />
+
+        <Button
+            android:id="@+id/button_fog"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_fog" />
+
+        <Button
+            android:id="@+id/button_clock"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_clock" />
+
+        <Button
+            android:id="@+id/button_tree"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_tree" />
+
+        <Button
+            android:id="@+id/button_moon"
+            style="@style/CalculatorButton"
+            android:text="@string/symbol_moon" />
+
+    </GridLayout>
+
+    <!-- Translate Button -->
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/translate_dream"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF9500"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ios_button_bg" />
+
+</LinearLayout>
